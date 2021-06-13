@@ -1,4 +1,4 @@
-![UPX_2016_1](https://user-images.githubusercontent.com/30727573/121819383-729cbc80-cc95-11eb-8179-180af6d0fb6c.png)
+![upxshit](https://user-images.githubusercontent.com/30727573/121819411-a24bc480-cc95-11eb-8698-305928e30573.png)
 
 
 
@@ -23,5 +23,7 @@ CrackMe Upx Koruması olan bir uygulama: https://www.reversing.be/easyfile/file.
 
 Unpackeri çıkardığımız klasore sağ tıklayıp powershell  > upx -d '.\dosyaismi.exe'
 
-Çıkarılan deobf dosyasını
+Çıkarılan deobf dosyasını dedect it easy koyup unpack olmuşmu diye bakıyoruz.
+
+
 
