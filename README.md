@@ -29,14 +29,70 @@ Unpackeri çıkardığımız klasore sağ tıklayıp powershell  > upx -d '.\dos
 
 Görünüşe göre dosyamız unpacklendi :) bitti mi bitmedi devam edelim.
 
-64dbg ile obfuslanmış dosyanın içerisine debug moduna alıp f9 basıyoruz.
+64dbg ile obfuslanmış dosyanın içerisine f2 ile debug moduna geçiyoruz.
 
 Tail jump işlemine geçeceğiz. ama ilk olarak tailin ne olduğunu açıklayayım.
 
 Tail jump:
 
-Kuyruk atlamasıdır. bu kodun sonunda bulunan bir talimattır ve çok uzaktaki bir adrese bağlantı verir bu atlamayı bir dizi talimattan hemen önce bulmanız gerekmektedir.
+tail jump türkçe karşılığı ile Kuyruk atlamasıdır. bir kodun sonunda bulunan bir yönergedir ve çok diğer ucundaki bir adrese bağlantı gönderir bu atlamayı  yaptığınız talimattan hemen önce bulmanız gerekmektedir.
 
 Aksi takdirde çoğu işleme tekrar bbaşlamanız gerekir buda size zaman kaybeder.
+
+![tail1](https://user-images.githubusercontent.com/30727573/121819666-06bb5380-cc97-11eb-9bb0-7e01f8b32321.PNG)
+
+1. line burada
+
+![jump2](https://user-images.githubusercontent.com/30727573/121819733-5f8aec00-cc97-11eb-8cf4-ea4bd4ea65d6.PNG)
+
+Buda diğer ucu
+
+Jpm'ye f9 ile breakpoint koyup f2 ile debug modundan çıkıyoruz.
+
+Kodlar yukarıdan aşşağıyla sıralanır.
+
+1. uçtan debugger ile programı açıp key sıralamasını deniyoruz.
+
+eğer kod breakpointte sona ererse doğru yapmışsınızdır.
+
+eğer kod breakpoint dışında yada içinde vermesse. yalnış bir şey yapmışsınızdır.
+
+Breakpointin durduğu adrese sağ tık string references > strings.'e tıklıyoruz.
+
+![breakpoints](https://user-images.githubusercontent.com/30727573/121819847-07a0b500-cc98-11eb-9fde-5d12d4f4bbe0.PNG)
+
+Gördüğünüz üzere girilen değerler burda :)
+
+Key hatalı ise try again, doğruysa congrulations. yazısını çıkarmakta.
+
+
+                                                            Başarılı Sonuç
+                                                            
+Breakpointin durduğu adrese tekrar gelip debug modunda başlattıktan sonra bekliyoruz. veee
+
+![Anahtar](https://user-images.githubusercontent.com/30727573/121819945-9a415400-cc98-11eb-9f53-e591ab55db8d.PNG)
+
+Hop keyi aldık.
+
+Dnspy aracı ile sourceine ulaşabilir veya geliştirebilirsiniz.
+
+Bakalım key çalışıyormu.
+
+![congrulations](https://user-images.githubusercontent.com/30727573/121820018-18055f80-cc99-11eb-850e-bc8f0b054232.PNG)
+
+Evet programı tamamen kırdık.
+
+Bu tarz tersine mühendislik eğitimlerini yakında youtube kanalımda çekmeyi düşünüyorum.
+
+Ama şimdilik böyle desek kafidir :)
+
+                                                                     Sonuç?
+                                                          
+hata ayıklayıcı aracılığıyla mevcut tüm string referanslarını kontrol ederek bu komutu yürütebilir korumayı aşarak  bu stringleri arayabilir ve editleyebiliriz, eğer rastgele bi keyi programa yazarsak muhtemelen hata verecektir.
+
+Sonuç olarak cracklendi ve artık tamamen erişilebilir.
+
+
+
 
 
