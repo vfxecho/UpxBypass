@@ -25,5 +25,9 @@ Unpackeri çıkardığımız klasore sağ tıklayıp powershell  > upx -d '.\dos
 
 Çıkarılan deobf dosyasını dedect it easy koyup unpack olmuşmu diye bakıyoruz.
 
+![unpacked](https://user-images.githubusercontent.com/30727573/121819495-11c1b400-cc96-11eb-8d08-fb6ab691fca3.PNG)
+
+Görünüşe göre dosyamız unpacklendi :) bitti mi bitmedi devam edelim.
+
 
 
