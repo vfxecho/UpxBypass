@@ -29,5 +29,14 @@ Unpackeri çıkardığımız klasore sağ tıklayıp powershell  > upx -d '.\dos
 
 Görünüşe göre dosyamız unpacklendi :) bitti mi bitmedi devam edelim.
 
+64dbg ile obfuslanmış dosyanın içerisine debug moduna alıp f9 basıyoruz.
+
+Tail jump işlemine geçeceğiz. ama ilk olarak tailin ne olduğunu açıklayayım.
+
+Tail jump:
+
+Kuyruk atlamasıdır. bu kodun sonunda bulunan bir talimattır ve çok uzaktaki bir adrese bağlantı verir bu atlamayı bir dizi talimattan hemen önce bulmanız gerekmektedir.
+
+Aksi takdirde çoğu işleme tekrar bbaşlamanız gerekir buda size zaman kaybeder.
 
 
