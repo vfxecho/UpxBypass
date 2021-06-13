@@ -1,5 +1,4 @@
-# UpxBypass
-                                         Tersine mühendislik upx korumasını atlatma.
+![UPX_2016_1](https://user-images.githubusercontent.com/30727573/121819383-729cbc80-cc95-11eb-8179-180af6d0fb6c.png)
 
 
 
